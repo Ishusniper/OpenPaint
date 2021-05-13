@@ -59,6 +59,7 @@
 #include    "res/transform-scale.xpm"
 #include    "res/linked.xpm"
 #include    "res/unlinked.xpm"
+#include    "res/MIC.xpm"
 #endif
 
 #endif
