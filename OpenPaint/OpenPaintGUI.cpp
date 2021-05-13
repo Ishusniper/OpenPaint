@@ -397,6 +397,7 @@ MainFrame::MainFrame( wxWindow* parent, wxWindowID id, const wxString& title, co
 	m_toolBar1->AddSeparator();
 	m_toolBar1->AddTool( wxID_UNDO, _("Undo"), wxIcon( wxT("IDI_ICON_UNDO"), wxBITMAP_TYPE_ICO_RESOURCE, 32, 32 ), wxNullBitmap, wxITEM_NORMAL, _("Undo (Ctrl +Z)"), _("Undo the last action.") );
 	m_toolBar1->AddTool( wxID_REDO, _("Redo"), wxIcon( wxT("IDI_ICON_REDO"), wxBITMAP_TYPE_ICO_RESOURCE, 32, 32 ), wxNullBitmap, wxITEM_NORMAL, _("Redo (Ctrl +Z)"), _("Redo the last action that was undone.") );
+	m_toolBar1->AddTool( wxID_V2D, _("VoiceToDraw"), wxIcon( wxT("VoiceToDraw"), wxBITMAP_TYPE_ICO_RESOURCE, 32, 32 ), wxNullBitmap, wxITEM_NORMAL, _("V2D (Ctrl + 2)"), _("Toggle Voice Draw") );
 	m_toolBar1->AddSeparator();
 	m_toolBar1->Realize();
 	
